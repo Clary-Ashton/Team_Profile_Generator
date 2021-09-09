@@ -6,11 +6,11 @@ describe('Engineer', () => {
   
       expect(engineer.name).toBe("Ashton");
       expect(engineer.id).toBe("4");
-      expect(engineer.email).toBe("ashton@homail.com");
+      expect(engineer.email).toBe("ashton@hotmail.com");
       expect(engineer.github).toBe("github.com/ashtonmawangi")
     });
     it('getGithub() function returns github', () => {
-        const engineer = new Engineer("ashton", "4", "ashton@hotmail.com", "github.com/ashtonmawangi");
+        const engineer = new Engineer("Ashton", "4", "ashton@hotmail.com", "github.com/ashtonmawangi");
         expect(engineer.getGithub()).toBe("github.com/ashtonmawangi");
     });
     it('getRole() function returns "Engineer"', () => {

@@ -4,7 +4,7 @@
 }
 
 a{
-    color: blue;
+    color: red;
     font-style: italic;
     text-decoration: none;
 }
@@ -27,8 +27,8 @@ h3{
     text-align: center;
 }
 
-header{
-    background-color: darkslateblue;
+.header{
+    background-color: green;
     
     margin: 0;
     padding: 1rem;
@@ -42,8 +42,10 @@ header{
 }
 
 .card{
-    border: 1px solid grey;
+    border: 1px solid green;
     padding: 2rem;
     margin: 2rem;
     width: 25%;
-    background-color: grey;
+    background-color : lightgreen;
+
+}

@@ -1,5 +1,5 @@
 {
-  "name": "Team_Profile_Generator",
+  "name": "team-profile-generator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "Jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/Clary-Ashton/Team_Profile_Generator/issues"
   },
-  "homepage": "https://github.com/Clary-Ashton/Team_Profile_Generator#readme"
+  "homepage": "https://github.com/Clary-Ashton/Team_Profile_Generator#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^8.1.2",
+    "install": "^0.13.0",
+    "jest": "^27.1.1"
+  }
 }

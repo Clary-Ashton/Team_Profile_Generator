@@ -28,7 +28,8 @@ function introprompt() {
         } else if (answer.addNew === "Add new Intern") {
             internPrompts();
         } else if (answer.addNew === "Generate HTML") {
-            const errorFunction = (err) => err ? console.error(err) : console.log('role logged!');
+            
+            const errorFunction = (err) => err ? console.error(err) : console.log('roles logged!');
             fs.writeFile('./dist/index.html', generateHTML(managerObjects, engineerObjects, internObjects), errorFunction);
         }
       }
@@ -143,6 +144,10 @@ function internPrompts() {
         
     });
 }
+
+introprompt();
+
+ 
 
 
 

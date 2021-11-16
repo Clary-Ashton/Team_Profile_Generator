@@ -2,10 +2,11 @@ function generateHTML(managerObjects, engineerObjects, internObjects) {
     console.log(managerObjects)
     console.log(engineerObjects)
     console.log(internObjects)
+}
 
     const team = [];
-const managers = managerObjects.forEach(manager =>{
-   return `
+    const managerCard = manager => {
+        return `
     <div class="card">
         <header>
             <h2 class="name header">${manager.name}</h2>
@@ -15,16 +16,10 @@ const managers = managerObjects.forEach(manager =>{
         <p class="details">Email: <a href="mailto:">${manager.email}</a></p>
         <p class="details">Office Number:${manager.officeNumber}</p>
     </div>`
-})
-console.log(managers)
-team.push(managers.join(''))
+    }
 
 
-
-
-
-    
-    const engineers = engineerObjects.forEach(engineer =>{
+    const engineerCard = engineer => {
         return `
     
     <div class="card">
@@ -36,14 +31,14 @@ team.push(managers.join(''))
         <p class="details">Email: <a href="mailto:">${engineer.email}</a></p>
         <p class="details">Office Number:${engineer.github}</p>
     </div>`
-    })
+    }
 
-    team.push(engineers.join(''))
+   
     
 
-     
-    const interns = internObjects.forEach(intern =>{
-        return `  
+    const internCard = intern => {
+
+  return `  
     
     <div class="card">
         <header>
@@ -55,16 +50,26 @@ team.push(managers.join(''))
         <p class="details">Office Number:${intern.school}</p>
     </div>`
 
-})
+}
 
-team.push(interns.join(''))
+ team.push(managerObjects.map(manager => managerCard(manager) ))
+ team.push(engineerObjects.map(engineer => engineerCard(engineer))).join("")
+ team.push(internObjects.map(intern => internCard(intern))).join("")
+
 
  
 console.log(team)
 
+return team.join("")
 
 
- return`
+
+ 
+}
+
+
+module.exports = (managerObjects, engineerObjects, internObjects) => {
+    return`
  <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -84,7 +89,7 @@ console.log(team)
         <main>
             <div class="container">
  
- ${team.join('')}
+ ${ generateHTML(managerObjects, engineerObjects, internObjects)}
  
  </div>
  </main>
@@ -97,8 +102,5 @@ console.log(team)
 </body>
 </html>
 
-
-`}
-
-
-module.exports = generateHTML;
+`
+};

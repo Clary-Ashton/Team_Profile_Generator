@@ -1,7 +1,9 @@
 # Team_Profile_Generator
----
 
-# Table of content
----
+## Table of content
+
+[Description](#description)
+[Installation](#installation)
+
 
 

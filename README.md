@@ -1,11 +1,9 @@
 # Team_Profile_Generator
 [Description](#description)
-
 A team profile generator using Node.js, with a front-end built using Bootstrap.
 
 [Deployed Link](#deployedlink)
-
- https://clary-ashton.github.io/Team_Profile_Generator/
+https://clary-ashton.github.io/Team_Profile_Generator/
 
 
 [Screenshot](#screenshot)

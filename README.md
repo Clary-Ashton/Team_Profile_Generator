@@ -4,7 +4,7 @@
 
 [Description](#description)
 
-[Screen shot](#screen shot)
+[Screen shot](#screenshot)
 
 [Installation](#installation)
 

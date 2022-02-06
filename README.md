@@ -15,6 +15,9 @@ https://clary-ashton.github.io/Team_Profile_Generator/
 
 [Screenshot](#screenshot)
 
+![screencapture-127-0-0-1-5501-coverage-lcov-report-index-html-2022-02-06-14_33_24](https://user-images.githubusercontent.com/78886789/152686001-a2d42c76-7e45-448b-90c2-296e2819907f.png)
+
+
 ![Screenshot (11)](https://user-images.githubusercontent.com/78886789/149640176-364bdbec-2aa0-4944-bde4-d243f501fda9.png)
 
 

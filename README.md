@@ -5,11 +5,8 @@ This profile generator is a command line application that allows you to build yo
 
 Future state, this information will be used to generate a website that will display all of this information for you as well as provide the ability to email team members and review and Engineer's work on their Github page.
 
-## Built with:
-A team profile generator using Node.js, with a front-end built using Bootstrap.
 
 [Deployed Link](#deployedlink)
-
 https://clary-ashton.github.io/Team_Profile_Generator/
 
 
@@ -21,6 +18,7 @@ https://clary-ashton.github.io/Team_Profile_Generator/
 [Installation](#installation)
 
 [Usage](#usage)
+A team profile generator using Node.js, with a front-end built using Bootstrap.
 
 [License](#license)
 

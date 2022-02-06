@@ -1,5 +1,6 @@
 # Team_Profile_Generator
-[Description](#description)
+
+## Description
 
 This profile generator is a command line application that allows you to build your team, including a manager, engineers and interns. We will capture each team member's name, ID, and email as well as the Manager's office number, an Engineer's github account, and the school an intern is attending.
 

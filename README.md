@@ -19,6 +19,10 @@ https://clary-ashton.github.io/Team_Profile_Generator/
 
 [Installation](#installation)
 
+## Test
+
+Run the Test using Jest test.
+
 [Usage](#usage)
 A team profile generator using Node.js, with a front-end built using Bootstrap.
 

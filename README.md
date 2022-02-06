@@ -7,7 +7,9 @@ Future state, this information will be used to generate a website that will disp
 
 
 [Deployed Link](#deployedlink)
+
 https://clary-ashton.github.io/Team_Profile_Generator/
+
 
 
 [Screenshot](#screenshot)

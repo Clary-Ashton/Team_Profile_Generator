@@ -20,6 +20,9 @@ https://clary-ashton.github.io/Team_Profile_Generator/
 
 ![Screenshot (11)](https://user-images.githubusercontent.com/78886789/149640176-364bdbec-2aa0-4944-bde4-d243f501fda9.png)
 
+![Screenshot (24)](https://user-images.githubusercontent.com/78886789/152833801-8c4bfac8-67d7-445e-a15b-1cfbd8a736c0.png)
+
+
 ## Team Screenshot
 
 ![screencapture-127-0-0-1-5501-dist-index-html-2022-02-07-02_55_53](https://user-images.githubusercontent.com/78886789/152717446-21d45d1a-576b-4515-9a8c-d886e0595a9f.png)

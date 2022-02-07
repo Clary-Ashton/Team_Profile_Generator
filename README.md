@@ -31,6 +31,7 @@ Run the Test using Jest test.
 
 ## Usage
 A team profile generator using Node.js, with a front-end built using Bootstrap.
+Run node index.js or node app.js
 
 ## License
 This application is licensed with an [MIT License](./LICENSE)

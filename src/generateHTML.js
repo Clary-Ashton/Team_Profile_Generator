@@ -1,8 +1,6 @@
 function generateHTML(managerObjects, engineerObjects, internObjects) {
-    console.log(managerObjects)
-    console.log(engineerObjects)
-    console.log(internObjects)
-}
+   
+    
 
     const team = [];
     const managerCard = manager => {
@@ -51,17 +49,14 @@ function generateHTML(managerObjects, engineerObjects, internObjects) {
     </div>`
 
 }
+const finalManager = managerObjects.map(manager => managerCard(manager))
 
- team.push(managerObjects.map(manager => managerCard(manager) ))
- team.push(engineerObjects.map(engineer => engineerCard(engineer))).join("")
- team.push(internObjects.map(intern => internCard(intern))).join("")
-
-
+ const engineerList = (engineerObjects.map(engineer => engineerCard(engineer))).join("")
  
-console.log(team)
+ const internList = (internObjects.map(intern => internCard(intern))).join("")
+team.push(finalManager, engineerList, internList)
 
-return team.join("")
-
+ return team.join("")
 
 
  
